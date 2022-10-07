@@ -1,0 +1,23 @@
+* {
+    background-color: azure;
+}
+
+nav {
+    display: flex;
+    background-color: darkcyan;
+    text-align: left;
+}
+
+.lstnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+.elmtnav {
+    background-color: darkcyan;
+    color: black;
+    display: inline;
+    font-size: 200;
+}
