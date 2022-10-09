@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: lightseagreen;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    font-size: 10ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navlst {
+    font-size: 5ch;
+    margin-left: 2ch;
+}
+
+.langue {
+    font-size: 3ch;
+    padding-left: 45ch;
+}
+
+.paragraphe {
+    display: flex;
+    font-size: 3ch;
+    margin-left: 4ch;
+    margin-right: 3ch;
+    margin-top: 5ch;
+    text-align: center;
+}
+
+.h1para {
+    margin-top: 3ch;
+}
+
+.txt1 {
+    margin-top: 5ch;
+    margin-left: 10ch;
+}
+
+.divprod {
+    display: flex;
+    font-size: 5ch;
+    margin-left: 4ch;
+    margin-right: 3ch;
+    margin-top: 5ch;
+}
+
+.produit {
+    display: flex;
+    padding: 10ch;
+    font-size: 3ch;
+    align-items: center;
+}
+
+.prod {
+    padding-left: 3ch;
+    padding-right: 3ch;
+}
+
+.articles {
+    display: flex;
+    align-items: center;
+}
+
+.articles_wifi {
+    display: flex;
+    align-items: center;
+    padding-left: 25ch;
+    padding-top: 20ch;
+}
+
+.card {
+    width: 55ch;
+    height: 55ch;
+}
+
+.card_enceinte{
+    width: 55ch;
+    height: 55ch;
+    padding-left: 5ch;
+}
+
+.card_wifi {
+    width: 50ch;
+    height: 40ch;
+}
+
+.card_doorbell {
+    width: 60ch;
+    height: 55ch;
+    padding-left: 10ch;
+}
+
+.card_thermostat {
+    width: 63ch;
+    height: 55ch;
+    padding-left: 25ch;
+    padding-top: 15ch;
+}
+
+.prix {
+    font-size: 3ch;
+    text-align: center;
+    padding: 5ch;
+    margin-left: 13ch;
+}
+
+.prix_display {
+    font-size: 3ch;
+    text-align: center;
+    padding: 5ch;
+    margin-left: 31ch;
+}
+
+.prix_wifi {
+    font-size: 3ch;
+    text-align: center;
+    margin-left: 23ch;
+    margin-bottom: 20ch;
+}
+
+@media screen and (max-width:"1100px") {
+    .Utilisation {
+        width: 60%;
+    }
+    .Benefices {
+        width:60%
+    }
+    .Explications {
+        width:60%
+    }
+    .top-page {
+        width: 60px;
+       }
